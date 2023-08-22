@@ -3212,10 +3212,10 @@ body.is-ie .spotlights>section {
 	background-color: rgba(0, 0, 0, 0.1);
 }
 
-.spotlights>section.inactive>.image:before,
+/* .spotlights>section.inactive>.image:before,
 body.is-preload .spotlights>section>.image:before {
 	opacity: 1;
-}
+} */
 
 .spotlights>section.inactive>.content>.inner,
 body.is-preload .spotlights>section>.content>.inner {
@@ -3401,7 +3401,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3-alt {
-	background-color: #953d75;
+	background-color: #ffffff;
 }
 
 .wrapper.fullscreen {
