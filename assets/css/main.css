@@ -3217,14 +3217,14 @@ body.is-preload .spotlights>section>.image:before {
 	opacity: 1;
 } */
 
-.spotlights>section.inactive>.content>.inner,
+/* .spotlights>section.inactive>.content>.inner,
 body.is-preload .spotlights>section>.content>.inner {
 	-moz-transform: translateX(-1em);
 	-webkit-transform: translateX(-1em);
 	-ms-transform: translateX(-1em);
 	transform: translateX(-1em);
 	opacity: 0;
-}
+} */
 
 @media screen and (max-width: 1680px) {
 
