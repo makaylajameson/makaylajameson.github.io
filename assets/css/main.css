@@ -2704,11 +2704,6 @@ input[type="radio"]+label:before {
 	border-radius: 10px !important;
   }
 
-.rounded-image {
-	border-radius: 10px; /* Adjust this value to control the rounding */
-  }
-
-
 .image.left,
 .image.right {
 	max-width: 40%;
