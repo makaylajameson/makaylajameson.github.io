@@ -189,7 +189,7 @@ html {
 }
 
 body {
-	background: #6C3428;
+	background: #DE847B;
 }
 
 body.is-preload *,
@@ -2474,7 +2474,7 @@ select {
 
 select option {
 	color: #ffffff;
-	background: #6C3428;
+	background: #DE847B;
 }
 
 select:focus::-ms-value {
@@ -2658,11 +2658,11 @@ input[type="radio"]+label:before {
 }
 
 .wrapper.style1-alt .icon.major:before {
-	color: #6C3428;
+	color: #DE847B;
 }
 
 .wrapper.style2 .icon.major:before {
-	color: #6C3428;
+	color: #DE847B;
 }
 
 .wrapper.style2-alt .icon.major:before {
@@ -3389,7 +3389,7 @@ table.alt tfoot {
 }
 
 .wrapper.style2 {
-	background-color: #6C3428;
+	background-color: #DE847B;
 }
 
 .wrapper.style2-alt {
