@@ -189,7 +189,7 @@ html {
 }
 
 body {
-	background: #312450;
+	background: #6C3428;
 }
 
 body.is-preload *,
@@ -314,10 +314,10 @@ h1.major {
 }
 
 h1.major:after {
-	background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: linear-gradient(to right, #5e42a6, #b74e91);
+	background-image: -moz-linear-gradient(to right, #B95C50, #b74e91);
+	background-image: -webkit-linear-gradient(to right, #B95C50, #b74e91);
+	background-image: -ms-linear-gradient(to right, #B95C50, #b74e91);
+	background-image: linear-gradient(to right, #B95C50, #b74e91);
 	-moz-transition: max-width 0.2s ease;
 	-webkit-transition: max-width 0.2s ease;
 	-ms-transition: max-width 0.2s ease;
@@ -2032,7 +2032,7 @@ input[type="button"].primary,
 button.primary,
 .button.primary {
 	background-color: #ffffff;
-	color: #312450 !important;
+	color: #3B0404 !important;
 }
 
 input[type="submit"].primary:after,
@@ -2474,7 +2474,7 @@ select {
 
 select option {
 	color: #ffffff;
-	background: #312450;
+	background: #6C3428;
 }
 
 select:focus::-ms-value {
@@ -2562,7 +2562,7 @@ input[type="checkbox"]:checked+label:before,
 input[type="radio"]:checked+label:before {
 	background: #ffffff;
 	border-color: #ffffff;
-	color: #b74e91;
+	color: #ffffff;
 	content: '\f00c';
 }
 
@@ -2643,7 +2643,7 @@ input[type="radio"]+label:before {
 	display: block;
 	background: #ffffff;
 	border-radius: 100%;
-	color: #312450;
+	color: #3B0404;
 	text-align: center;
 	line-height: 2.5em;
 	margin: 0 0 1.3em 0;
@@ -2654,27 +2654,27 @@ input[type="radio"]+label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-	color: #5e42a6;
+	color: #B95C50;
 }
 
 .wrapper.style1-alt .icon.major:before {
-	color: #493382;
+	color: #6C3428;
 }
 
 .wrapper.style2 .icon.major:before {
-	color: #5052b5;
+	color: #6C3428;
 }
 
 .wrapper.style2-alt .icon.major:before {
-	color: #3e4094;
+	color: #ffffff;
 }
 
 .wrapper.style3 .icon.major:before {
-	color: #b74e91;
+	color: #DE847B;
 }
 
 .wrapper.style3-alt .icon.major:before {
-	color: #953d75;
+	color: #DE847B;
 }
 
 .logo-image {
@@ -2696,9 +2696,18 @@ input[type="radio"]+label:before {
 }
 
 .image img {
-	border-radius: 0.25em;
+	border-radius: 10px;
 	display: block;
 }
+
+.rounded-image {
+	border-radius: 10px !important;
+  }
+
+.rounded-image {
+	border-radius: 10px; /* Adjust this value to control the rounding */
+  }
+
 
 .image.left,
 .image.right {
@@ -3368,27 +3377,27 @@ table.alt tfoot {
 }
 
 .wrapper.alt {
-	background-color: #261c3e;
+	background-color: #BA704F;
 }
 
 .wrapper.style1 {
-	background-color: #5e42a6;
+	background-color: #B95C50;
 }
 
 .wrapper.style1-alt {
-	background-color: #493382;
+	background-color: #3B0404;
 }
 
 .wrapper.style2 {
-	background-color: #5052b5;
+	background-color: #6C3428;
 }
 
 .wrapper.style2-alt {
-	background-color: #3e4094;
+	background-color: #BA704F;
 }
 
 .wrapper.style3 {
-	background-color: #b74e91;
+	background-color: #DE847B;
 }
 
 .wrapper.style3-alt {
@@ -3502,7 +3511,7 @@ body.is-preload .wrapper.fade>.inner {
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-	background-color: #5e42a6;
+	background-color: #B95C50;
 	cursor: default;
 	padding: 1.75em 2em;
 }
@@ -3656,7 +3665,7 @@ body.is-preload .wrapper.fade>.inner {
 
 #sidebar {
 	padding: 2.5em 2.5em 0.5em 2.5em;
-	background: #312450;
+	background: #3B0404;
 	cursor: default;
 	height: 100vh;
 	left: 0;
@@ -3894,14 +3903,14 @@ body.is-ie #sidebar>.inner {
 }
 
 #sidebar nav a:before {
-	background: #3c2c62;
+	background: #ffffff8b;
 }
 
 #sidebar nav a:after {
-	background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: linear-gradient(to right, #5e42a6, #b74e91);
+	background-image: -moz-linear-gradient(to right, #B95C50, #ffff);
+	background-image: -webkit-linear-gradient(to right, #B95C50, #ffff);
+	background-image: -ms-linear-gradient(to right, #B95C50, #ffff);
+	background-image: linear-gradient(to right, #B95C50, #ffff);
 	-moz-transition: max-width 0.2s ease;
 	-webkit-transition: max-width 0.2s ease;
 	-ms-transition: max-width 0.2s ease;
@@ -3990,7 +3999,7 @@ body.is-preload #sidebar nav ul li {
 
 	#sidebar nav a:after {
 		background-image: none;
-		background-color: #b74e91;
+		background-color: #ffffff;
 	}
 
 }
@@ -4060,4 +4069,6 @@ body.is-preload #sidebar nav ul li {
 	background-size: contain !important;
 	background-position: center center !important;
 	background-repeat: no-repeat;
+	margin: 20px !important;
+
 }
