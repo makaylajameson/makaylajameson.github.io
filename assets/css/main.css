@@ -2296,7 +2296,7 @@ button:hover:active:after,
 @media screen and (max-width: 980px) {
 
 	.features {
-		display: block;
+		/* display: block; */
 	}
 
 	.features section {
@@ -2987,7 +2987,7 @@ ul.menu>li:first-child {
 
 	ul.menu>li {
 		border-left: 0;
-		display: block;
+		/* display: block; */
 		line-height: inherit;
 		margin: 0.5em 0 0 0;
 		padding-left: 0;
@@ -3232,7 +3232,7 @@ body.is-preload .spotlights>section>.content>.inner {
 @media screen and (max-width: 980px) {
 
 	.spotlights>section {
-		display: block;
+		/* display: block; */
 	}
 
 	.spotlights>section>.image {
